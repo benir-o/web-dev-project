@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section>
+<div class="box1">
+<nav>
+    <aside class="sidebar">
+    <a href="welcomepage.html">Home</a>
+    <p><a href="userlogin.html">Log in to other Account</a></p>
+    <a href="billcalculator.html">Bill Calculator</a>
+    <a href="accountquery.html">Account Query</a>
+    <p><a href="tokengenerator.html">Purchase Tokens</a></p> 
+    <p><a href="usagehistory.html">Usage History</a></p> 
+    </aside>
+</nav>
+</div>
+<hr>
+
+<div class="box2">
+    <form id="billForm">
+    <h2>Electricity Bill Calculator</h2>
+    <label for="units">Enter Units Consumed (kWh):</label>
+    <div class="input-box">
+    <input type="number" id="units" min="0" required>
+    </div>
+    <button type="submit">Calculate Bill</button>
+    </form>
+</div>
+
+<h3 id="output"></h3>
+</section>
+</body>
+</html>
