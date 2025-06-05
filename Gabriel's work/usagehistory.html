@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Usage History - Quantum Grid</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<section>
+    <div class="box1">
+    <nav>
+    <aside class="sidebar">
+    <a href="welcomepage.html">Home</a>
+    <p><a href="userlogin.html">Log in to other Account</a></p>
+    <a href="billcalculator.html">Bill Calculator</a>
+    <a href="accountquery.html">Account Query</a>
+    <p><a href="tokengenerator.html">Purchase Tokens</a></p> 
+    <p><a href="usagehistory.html">Usage History</a></p> 
+    </aside>
+</nav>
+</div>
+<hr>
+    <div class="login-box">
+        <h2>View Usage History</h2>
+            <div class="input-box">
+                <input type="number" name="userId" id="userId" required>
+                <label for="userId">User ID</label>
+            </div>
+            <div class="input-box">
+                <input type="password" id="login-password" required>
+                <label>Password</label>
+            </div>
+            <button type="submit">Fetch Usage</button>
+        <div class="register-link">
+            <p>Want to buy tokens? <a href="tokengenerator.html">Buy Now</a></p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
