@@ -3,30 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <title>Token Management Page</title>
-    <link rel="stylesheet" href="design.css" />
+    <link rel="stylesheet" href="functionalities_design.css" />
   </head>
   <body>
     <div class="container">
       <h1>Token Services</h1>
 
       <!-- Check Tokens -->
-      <form action="/check-tokens" method="GET">
+      <form action="dashboard.html" method="">
         <h3>Check Token Balance</h3>
         <label for="userId">User ID:</label>
         <input type="text" name="userId" id="userId" required />
-        <button type="submit">Check Tokens</button>
+        <button type="submit">Submit</button>
       </form>
 
       <!-- Buy Tokens -->
-      <form action="/buy-tokens" method="POST">
+      <form action="https://httpbin.org/get" method="GET">
         <h3>Buy Tokens</h3>
         <label for="userIdBuy">User ID:</label>
         <input type="text" name="userId" id="userIdBuy" required />
 
         <label for="amount">Amount of Tokens:</label>
-        <input type="number" name="amount" id="amount" required min="1" />
+        <input
+          type="number"
+          name="amount"
+          id="amount"
+          required
+          min="50"
+          max="3000"
+          step="50"
+        />
 
-        <button type="submit">Buy Tokens</button>
+        <button type="submit" formmethod="get">Buy Tokens</button>
       </form>
 
       <a href="dashboard.html">Check Dashboard</a>
