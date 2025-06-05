@@ -32,7 +32,7 @@
       <!-- Buy Tokens -->
       <div class="card">
         <h2>Buy Tokens</h2>
-        <form action="/buy-tokens" method="POST">
+        <form action="payment_options.html" method="">
           <input
             type="text"
             name="userId"
@@ -43,17 +43,19 @@
             type="number"
             name="amount"
             placeholder="Number of Tokens"
-            min="1"
+            min="0"
+            max="1000"
+            step="40"
             required
           />
-          <button type="submit">Buy Tokens</button>
+          <button type="submit">Check payment options</button>
         </form>
       </div>
 
       <!-- Payment History -->
       <div class="card">
         <h2>Payment History</h2>
-        <form action="/payment-history" method="GET">
+        <form action="payment_history.html" method="">
           <input
             type="text"
             name="userId"
