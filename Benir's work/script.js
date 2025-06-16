@@ -1,11 +1,25 @@
 // Example: Create a 3x3 table dynamically
+
+let kesAmount;
+function convertCashToTokens(kesAmount) {
+  const tokenRate = 20.57;
+
+  if (isNaN(kesAmount) || kesAmount <= 0) {
+    return "Please enter a valid amount in shillings.";
+  }
+
+  const tokens = kesAmount / tokenRate;
+  return tokens.toFixed(2); // rounds to 2 decimal places
+}
+
+
 const rows = 3;
 const cols = 3;
 const headers=['Amount','TokenAmount','Kwh Purchased'];
 const data = [
-  ['Alice', 24, 'Engineer'],
-  ['Bob', 30, 'Designer'],
-  ['Carol', 28, 'Manager']
+  [1000, 48.67, '50Kwh'],
+  [2000, 97.225, '100Kwh'],
+  [3000, 145.84, '140Kwh']
 ];
 const table = document.createElement('table');
 

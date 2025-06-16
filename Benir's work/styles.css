@@ -16,6 +16,13 @@ header {
   justify-content: center;
   padding: 20px;
 }
+.dashboard-row{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
 .card {
   background-color: rgb(232, 255, 173);
   border-radius: 10px;

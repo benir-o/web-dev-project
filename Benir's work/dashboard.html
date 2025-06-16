@@ -30,7 +30,7 @@
       <!-- Buy Tokens -->
       <div class="card">
         <h2>Buy Tokens</h2>
-        <form action="payment_options.html" method="">
+        <form onsubmit="createTable()">
           <input
             type="text"
             name="userId"
@@ -63,6 +63,43 @@
           <button type="submit">View History</button>
         </form>
       </div>
+
+      <!-- Token Usage -->
+      <div class="card">
+        <form action="" method="">
+          <h2>Token Usage</h2>
+          <input type="text" placeholder="Enter User ID" required />
+          <button>View Usage</button>
+        </form>
+      </div>
+
+      <!-- Top-Up Methods -->
+      <div class="card">
+        <h2>Top-Up Methods</h2>
+        <select>
+          <option>Select Method</option>
+          <option>M-Pesa</option>
+          <option>Credit Card</option>
+          <option>PayPal</option>
+        </select>
+        <button>Set as Default</button>
+      </div>
+
+      <!-- Enable a user to transfer tokens to someone else -->
+      <div class="card">
+        <form action="">
+          <h2>Token Transfer</h2>
+          <input
+            id="transfer-to-id"
+            type="text"
+            placeholder="Recipient User ID"
+            required
+          />
+          <input id="transfer-amount" type="number" placeholder="Amount" />
+          <button>Send Tokens</button>
+        </form>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
