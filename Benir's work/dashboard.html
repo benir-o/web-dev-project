@@ -15,7 +15,6 @@
       <div class="card">
         <h2>Balance</h2>
         <h3>50</h3>
-        <!--
         <form action="https://httpbin.org/get" method="GET">
           <input
             type="text"
@@ -23,14 +22,17 @@
             placeholder="Enter User ID"
             required
           />
-          <button type="submit" formmethod="get">Check Balance</button>
+          <button type="submit" formmethod="" id="checkBalance">
+            Check Balance
+          </button>
         </form>
-      --></div>
+      </div>
 
       <!-- Buy Tokens -->
       <div class="card">
         <h2>Buy Tokens</h2>
-        <form onsubmit="createTable()">
+
+        <form action="">
           <input
             type="text"
             name="userId"
@@ -40,13 +42,10 @@
           <input
             type="number"
             name="amount"
-            placeholder="Number of Tokens"
-            min="0"
-            max="1000"
-            step="40"
+            placeholder="Payment in Ksh"
             required
           />
-          <button type="submit">Check payment options</button>
+          <button id="buyTokens">Buy Tokens</button>
         </form>
       </div>
 
@@ -60,7 +59,7 @@
             placeholder="Enter User ID"
             required
           />
-          <button type="submit">View History</button>
+          <button type="submit" id="viewHistory">View History</button>
         </form>
       </div>
 
@@ -69,7 +68,7 @@
         <form action="" method="">
           <h2>Token Usage</h2>
           <input type="text" placeholder="Enter User ID" required />
-          <button>View Usage</button>
+          <button id="ViewUsage">View Usage</button>
         </form>
       </div>
 
@@ -82,7 +81,7 @@
           <option>Credit Card</option>
           <option>PayPal</option>
         </select>
-        <button>Set as Default</button>
+        <button id="setasDefault">Set as Default</button>
       </div>
 
       <!-- Enable a user to transfer tokens to someone else -->
@@ -96,10 +95,10 @@
             required
           />
           <input id="transfer-amount" type="number" placeholder="Amount" />
-          <button>Send Tokens</button>
+          <button id="sendTokens">Send Tokens</button>
         </form>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="test.js"></script>
   </body>
 </html>
