@@ -16,15 +16,15 @@
         <h2>Balance</h2>
         <h3>50</h3>
         <form action="https://httpbin.org/get" method="GET">
-          <input
-            type="text"
-            name="userId"
-            placeholder="Enter User ID"
-            required
-          />
-          <button type="submit" formmethod="" id="checkBalance">
-            Check Balance
-          </button>
+          <span id="userId">
+            <input
+              type="text"
+              name="userId"
+              placeholder="Enter User ID"
+              required
+            />
+          </span>
+          <button type="submit" id="checkBalance">Check Balance</button>
         </form>
       </div>
 
@@ -32,19 +32,23 @@
       <div class="card">
         <h2>Buy Tokens</h2>
 
-        <form action="">
+        <form action="payment_options.html">
           <input
+            id="userId"
             type="text"
             name="userId"
             placeholder="Enter User ID"
             required
           />
+
           <input
+            id="kenyanAmount"
             type="number"
             name="amount"
             placeholder="Payment in Ksh"
             required
           />
+
           <button id="buyTokens">Buy Tokens</button>
         </form>
       </div>
@@ -53,12 +57,15 @@
       <div class="card">
         <h2>Payment History</h2>
         <form action="payment_history.html" method="">
-          <input
-            type="text"
-            name="userId"
-            placeholder="Enter User ID"
-            required
-          />
+          <span id="userId">
+            <input
+              type="text"
+              name="userId"
+              placeholder="Enter User ID"
+              required
+            />
+          </span>
+
           <button type="submit" id="viewHistory">View History</button>
         </form>
       </div>
