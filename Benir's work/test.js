@@ -4,7 +4,7 @@ let kesAmount;
 const tokenUnit=20.57;
 let initialTokens=0;
 let tokenAmount;
-
+console.log("Hello World");
 
 const checkBalanceButton=document.querySelector('#checkBalance');
 const buyTokensButton=document.querySelector('#buyTokens');
@@ -40,6 +40,7 @@ function buyTokens(event) {
     } else {
         tokenAmount=kshAmountValue/tokenUnit;
         initialTokens+=tokenAmount;
+        console.log(initialTokens);
         buyTokensButton.innerText = "Success!";
     }
 }
