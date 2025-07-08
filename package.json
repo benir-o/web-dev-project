@@ -1,0 +1,21 @@
+{
+  "name": "web-dev-project",
+  "version": "1.0.0",
+  "description": "<br>**GENERAL PROJECT DESCRIPTION** </br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node \"Benir's work/test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benir-o/web-dev-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benir-o/web-dev-project/issues"
+  },
+  "homepage": "https://github.com/benir-o/web-dev-project#readme"
+}
