@@ -12,6 +12,7 @@ the transactions and user activities to ensure system integrity and efficieny.</
 ---
 
 **SOLUTION PROVIDED BY THE PROJECT**
+
 1.  Fast token delivery service: Tokens are generated and delivered in less time after a successful payment.
 2.  Multiple payment options: Users can buy tokens via mobile money such as M-Pesa through a Quantum Grid branch in cash and even pay directly from their banks.
 3.  Usage transparency: Users can monitor electricity consumption and related expenses.
@@ -19,9 +20,10 @@ the transactions and user activities to ensure system integrity and efficieny.</
 5.  Simpler admin management: The admins can monitor transactions and user data seamlessly.
 6.  Realiable communication: The platform communicates with potential system issues early and transparently.
 
-  ---
+---
 
 **VALUE ADDITION BY THE PROPOSED SOLUTION**
+
 1. Improved access: Extends reliable electricity services to both urban and rural users.
 2. Speed and convenience: Eliminates delays in token delivery and system responsiveness.
 3. Security and privacy: Implements encrypted data storage and secure transactions.

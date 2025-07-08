@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Token Dashboard</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Token Dashboard</h1>
-    </header>
+import React from 'react';
 
+const Body = () => {
+    return (
     <div class="dashboard">
-      <!-- Display Tokens -->
       <div class="card">
         <h2>Balance</h2>
         <h3>50</h3>
@@ -27,8 +18,6 @@
           <button type="submit" id="checkBalance">Check Balance</button>
         </form>
       </div>
-
-      <!-- Buy Tokens -->
       <div class="card">
         <h2>Buy Tokens</h2>
 
@@ -53,7 +42,6 @@
         </form>
       </div>
 
-      <!-- Payment History -->
       <div class="card">
         <h2>Payment History</h2>
         <form action="payment_history.html" method="">
@@ -69,8 +57,6 @@
           <button type="submit" id="viewHistory">View History</button>
         </form>
       </div>
-
-      <!-- Token Usage -->
       <div class="card">
         <form action="" method="">
           <h2>Token Usage</h2>
@@ -78,8 +64,6 @@
           <button id="ViewUsage">View Usage</button>
         </form>
       </div>
-
-      <!-- Top-Up Methods -->
       <div class="card">
         <h2>Top-Up Methods</h2>
         <select>
@@ -90,8 +74,6 @@
         </select>
         <button id="setasDefault">Set as Default</button>
       </div>
-
-      <!-- Enable a user to transfer tokens to someone else -->
       <div class="card">
         <form action="">
           <h2>Token Transfer</h2>
@@ -106,6 +88,7 @@
         </form>
       </div>
     </div>
-    <!--<script src="test.js"></script>-->
-  </body>
-</html>
+    );
+};
+
+export default Body;

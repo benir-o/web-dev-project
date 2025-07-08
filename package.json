@@ -4,8 +4,8 @@
   "description": "<br>**GENERAL PROJECT DESCRIPTION** </br>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node \"Benir's work/test.js\""
+    "test":"echo \"ErrorL no test specified\" && exit 1",
+    "start": "node\"web-dev-project/src/App.js\""
   },
   "repository": {
     "type": "git",
