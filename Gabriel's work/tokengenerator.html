@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" th:replace="layout :: layout">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Buy Tokens</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>  
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <section>
-<div class="box1">
-    <nav>
-    <aside class="sidebar">
-    <a href="welcomepage.html">Home</a>
-    <p><a href="userlogin.html">Log in to other Account</a></p>
-    <a href="billcalculator.html">Bill Calculator</a>
-    <a href="accountquery.html">Account Query</a>
-    <p><a href="tokengenerator.html">Purchase Tokens</a></p> 
-    <p><a href="usagehistory.html">Usage History</a></p>
-    </aside>
-</nav>
-</div>
-<hr>
-    <div class="login-box">
+      <div class="box1">
+        <nav>
+          <aside class="sidebar">
+            <a href="welcomepage.html">Home</a>
+            <p><a href="userlogin.html">Log in to other Account</a></p>
+            <a href="billcalculator.html">Bill Calculator</a>
+            <a href="accountquery.html">Account Query</a>
+            <p><a href="tokengenerator.html">Purchase Tokens</a></p>
+            <p><a href="usagehistory.html">Usage History</a></p>
+          </aside>
+        </nav>
+      </div>
+      <hr />
+      <div class="login-box">
         <h2>Purchase Electricity Token(s)</h2>
         <div class="input-box">
-            <input type="number" id="id-number" required>
+          <form action="">
+            <input type="number" id="id-number" required />
             <label>User ID</label>
-    </div>
-    <div class="input-box">
-            <input type="number" id="amount" required>
-            <label>Amount in Kenya Shillings</label>
-    </div>
+          </form>
+        </div>
+        <div class="input-box">
+          <input type="number" id="amount" required />
+          <label>Amount in Kenya Shillings</label>
+        </div>
         <button onclick="BuyToken()">Purchase Token</button>
-   <p>Want to view tokens? <a href="usagehistory.html">View tokens</a></p>
-    <script src="script.js"></script>
-</section>
-</body>
+        <p>Want to view tokens? <a href="usagehistory.html">View tokens</a></p>
+      </div>
+      <script src="script.js"></script>
+    </section>
+  </body>
 </html>

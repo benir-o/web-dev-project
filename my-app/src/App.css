@@ -58,7 +58,7 @@ body {
   margin: 40px;
   padding: 0;
 }
-header {
+.Header {
   background-color: #9647f5;
   color: white;
   padding: 20px;
